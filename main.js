@@ -148,3 +148,48 @@
 // console.log(c.getDay());
 // console.log(c.getMonth());
 // console.log(c.getYear());
+
+// class  5
+
+// class Time {
+//     #hour
+//     #minute
+//     #second
+//    constructor(hour,minute,second){
+//     this.#hour = hour;
+//     this.#minute = minute;
+//     this.#second = second;
+//    }
+//    getHour(){
+//     return this.#hour
+//    }
+//     getMinute(){
+//         return this.#minute;
+//     }
+//     getSecond(){
+//         return this.#second
+//     }
+//     setHour(H){
+//        return this.#hour = H;
+//     };
+//     setMinute(M){
+//         return this.#minute = M;
+//     };
+//     setSecond(){
+//         return this.#second = S;
+//     };
+//     getfull(){
+//         return this.#hour , this.#minute ,this.#second
+//     }
+
+// }
+
+// let T = new Time(2, 30 , 24);
+
+// console.log(T.getHour());
+// console.log(T.getMinute());
+// console.log(T.getSecond());
+// console.log(T.getfull());
+
+// class 6
+
