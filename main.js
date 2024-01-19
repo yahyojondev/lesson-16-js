@@ -193,3 +193,33 @@
 
 // class 6
 
+// class shape {
+//   constructor(circle, Rectangle,) {
+//     this.circle = circle;
+//     this.Rectangle = Rectangle;
+//   }
+// }
+
+// class circle extends shape {
+//   constructor(circle, Rectangle,) {
+//     super(circle, Rectangle);
+//     this.triable = triable;
+//     this.cocircle = circle;
+//   }
+// }
+
+// class 7
+
+// class animalemployed extends animal {
+//   constructor(firstanimal, lastanimal) {
+//     super(firstanimal, lastanimal);
+//     this.run = run;
+//   }
+//   getWork() {
+//     return `${this.firstanimal} ${this.lastanimal}`;
+//   }
+// }
+
+// console.log(se1);
+// console.log(se1.getWork());
+
