@@ -53,3 +53,98 @@
 // }
 
 // console.log(Object.customKeys(obj ));
+
+
+// class 3
+
+// class Employee {
+//     #id
+//     #firstName
+//     #lastName
+//     #salary
+
+//     constructor(id,firstName,lastName,salary){
+//         this.#id = id;
+//         this.#firstName = firstName;
+//         this.#lastName = lastName;
+//         this.#salary = salary;
+//     }
+
+//     getId(){
+//         return this.#id;
+//     };
+//     getFirstName(){
+//         return this.#firstName;
+//     };
+//     getLastName(){
+//         return this.#lastName;
+//     };
+//     getSalary(){
+//         return this.#salary;
+//     };
+//     setId(id){
+//         return this.#id = i;
+//     };
+//     setFirstName(fName){
+//         return this.#firstName = fName;
+//     };
+      
+//     setLastName(lName){
+//         return this.#lastName = lName;
+//     };
+//     setSalary(s){
+//         return this.#salary = s;
+//     };
+//     getFullName(){
+//         return (this.#firstName + this.#lastName)
+//     };
+// }
+
+// let E = new Employee(3,"yahyojon","nabijonov",'2000$')
+//   console.log(E.getId());
+//   console.log(E.getfirstName());
+//   console.log(E.getlastName());
+//   console.log(E.getsalary());
+
+// class 4
+
+
+// class customDate {
+//     #day;
+//     #month;
+//     #year;
+//    constructor(day,month,year){
+//     this.#day = day;
+//     this.#month = month;
+//     this.#year = year;
+//    }
+//     getDay(){
+//         return this.#day;
+//     };
+//     getMonth(){
+//         return this.#month;
+//     };
+//     getYear(){
+//         return this.#year
+//     };
+//     setDay(d){
+//         this.#day = d;
+//     };
+//     setMonth(m){
+//         this.#month = m;
+//     };
+//     setYear(y){
+//         this.#year = y;
+//     };
+
+// }
+
+// let c = new customDate(12,1,2024);
+
+// c.setDay(2)
+// c.setMonth(11)
+// c.setYear(2025)
+
+// console.log(c.getDay());
+// console.log(c.getMonth());
+// console.log(c.getYear());
